@@ -1,3 +1,6 @@
 require_relative "blackjack.rb"
 
-runner
+def runner
+  welcome
+  sum = initial_round
+end
